@@ -74,7 +74,7 @@ const Footer = () => {
                 </div>
                 <hr className='bg-white my-1'></hr>
                     <div className='row py-2'>
-                    <p className='text-white m-auto'>Copyright © 2022 Rainbow-Themes. All Rights Reserved.</p>
+                    <p className='text-white m-auto copyright'>Copyright © 2022 Rainbow-Themes. All Rights Reserved.</p>
                     </div>
             </footer>
 
