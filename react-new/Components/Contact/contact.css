@@ -80,4 +80,8 @@ iframe {
     .contactPage img.d-block.m-auto.img-fluid {
         border-radius: unset;
     }
+    .contactPage .title {
+        font-size: 47px !important;
+        line-height: 52px !important;
+    }
 }
