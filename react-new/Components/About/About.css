@@ -141,6 +141,10 @@ color:#f81f01;
 .team-slider {
     padding: 50px 20px;
 }
+    h3.text-center.counter.position-relative {
+    font-size: 50px;
+    line-height: 55px;
+}
 }
 @media screen and (max-width:980px){
   .AboutPage .col-12.col-md-8 {
