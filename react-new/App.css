@@ -370,3 +370,11 @@ color:red;
     padding: 2px;
   }
 }
+@media screen and (max-width:600px){
+footer .container {
+  padding: 50px 20px;
+}
+.copyright{
+  padding:0 20px;
+}
+}
