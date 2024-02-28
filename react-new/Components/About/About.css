@@ -138,7 +138,9 @@ color:#f81f01;
   font-size: 47px !important;
   line-height: 55px !important;
 }
-
+.team-slider {
+    padding: 50px 20px;
+}
 }
 @media screen and (max-width:980px){
   .AboutPage .col-12.col-md-8 {
