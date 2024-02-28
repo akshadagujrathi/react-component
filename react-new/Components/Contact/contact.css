@@ -1,0 +1,83 @@
+.contactPage .row.d-flex {
+    justify-content: center;
+}
+.contactPage .title {
+    font-size: 56px !important;
+    font-weight: 900 !important;
+    line-height: 62px !important;
+    color: #fff;
+    text-align: center;
+}
+.contactPage .Banner {
+    background-image: url('./images/banner3.png');
+    background-position: center;
+    min-height: 50vh;
+    background-size: cover;
+    /* margin-bottom: 50px; */
+}
+.contact-foem-section,.address-cards {
+    padding: 50px 20px;
+}
+.address-cards svg {
+    font-size: 35px;
+    border-radius: 100%;
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+    color: #f9004d;
+    background-color: #f5f5f5;
+}
+.address-cards .card {
+    padding:40px 20px;
+  box-shadow: 0 5px 15px 0 rgba(62,65,159,.1);
+  display:unset;
+  margin: 0 20px;
+}
+.contact-foem-section .contact-section{
+  padding:20px;
+}
+.contactPage .contact-section .row {
+    box-shadow: 0 1px 15px 0 rgba(62,65,159,.1);
+    border-radius: 7px;
+}
+.contactPage .contact-img {
+    padding: 0;
+}
+iframe {
+    max-width: 2150px;
+    width: 100%;
+    height: 500px;
+    
+    position: relative;
+    z-index: -1;
+}
+.contactPage img.d-block.m-auto.img-fluid {
+    max-height: 600px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px 0px 0px 7px;
+} 
+@media screen and (max-width:1000px){
+    .address-cards .card {
+        padding: 40px 0px;
+        margin: 0px;
+    }
+    .contactPage .container {
+        padding: 0;
+    }
+    .contactPage .contact-section .row {
+        border-radius: 0;
+    }
+}
+@media screen and (max-width:600px){
+    .contactPage .Banner {
+        min-height: 30vh;
+        margin-bottom: 30px;
+    }
+    .contact-foem-section {
+        padding: 30px 0px;
+    }
+    .contactPage img.d-block.m-auto.img-fluid {
+        border-radius: unset;
+    }
+}

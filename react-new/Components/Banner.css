@@ -1,0 +1,179 @@
+
+.Banner {
+
+    background-image: url('https://trydo.rainbowit.net/assets/images/bg/bg-image-16.jpg');
+    min-height: 80vh;
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/* h1 {
+    font-size: 50px;
+} */
+.Hompage h1{
+    color: #1f1f25;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: Montserrat,sans-serif;
+    line-height: 68px;
+    text-transform: inherit;
+    /* width: 70%; */
+  }
+/* p{
+    font-size:20px;
+} */
+.header ul {
+   gap: 20px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.Hompage .Banner a {
+    background: #000;
+    padding: 8px 31px;
+    border-radius: 3px;
+}
+nav {
+    z-index: 99999 !important;
+    position: absolute;
+    /* background-color: #0000009e; */
+    height: 38px;
+    width:100%;
+}
+header {
+    background-color: #000;
+}
+ .Banner {
+    background-image: url('https://trydo.rainbowit.net/assets/images/bg/bg-image-16.jpg');
+    height: 74%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* position: absolute;
+    top: 0; */
+    width: 100%;
+    background-size:cover;
+}
+.overlay-btn {
+    background: #000 !important;
+    border: 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-size: 16;
+    font-weight: 700;
+    overflow: hidden;
+    padding: 15px 45px !important;
+    position: relative;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+}
+.overlay-btn:after {
+    background:  #f9004d;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: -50%;
+    transition: opacity .5s ease-out;
+    transition: all .3s ease-in-out;
+    width: 100%;
+    z-index: -1;
+}
+.overlay-btn:hover:after {
+    opacity: 1;
+    top: 0;
+    color: #fff;
+}
+.overlay-btn:hover{
+  color:#fff !important;
+}
+.header .header-icons svg {
+    font-size: 33px !important;
+    padding: 6px;
+    color: #fff;
+    fill: #fff !important;
+  }
+  span.name {
+    color: #f9004d;
+}
+
+@media screen and (max-width:600px){
+    .Hompage h1 {
+        font-size: 42px;
+        line-height: 50px;
+        /* width: 70%; */
+    }
+    .container{
+        padding:0;
+    }
+    .Banner {
+        min-height: 65vh;
+    }
+    .home_about img {
+        margin-top: 17px;
+    }
+    .text-section, .gallery, .contact-section {
+        padding: 50px 20px;
+    }
+    h2.title {
+        font-size: 47px;
+    }
+    .gallery .card img {
+        width: 155px;
+    }
+    .form-section {
+        padding: 20px 0;
+    }
+    .react-tabs__tab {
+        padding: 8px 7px;
+        
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:980px){
+    .Hompage h1 {
+        font-size: 55px;
+        line-height: 65px;
+        width:600px;
+        /* width: 70%; */
+    }
+    .container{
+        max-width:850px;
+    }
+    .text-section {
+        padding: 50px 30px;
+    }
+    .gallery .card img {
+        width: 180px;
+        
+    }
+    .home_about img {
+        margin-top: 70px;
+    }
+    .form-section {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 385px){
+.gallery .card img {
+    width: 120px;
+    object-fit: cover;
+    height: 120px !important;
+}
+.Hompage h1 {
+    font-size: 33px;
+    line-height: 38px;
+}
+.gallery button {
+    font-size: 16px;
+}
+.react-tabs__tab {
+    padding: 8px 5px;
+}
+}

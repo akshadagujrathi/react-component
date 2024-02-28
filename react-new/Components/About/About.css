@@ -1,0 +1,192 @@
+
+.AboutPage .Banner {
+    /* background-image: url('https://trydo.rainbowit.net/assets/images/bg/bg-image-17.jpg'); */
+    background-image: url('./images/bg-image-17.png');
+    min-height: 50vh;
+    background-size: cover;
+}
+.AboutPage h1, .AboutPage p.col-8.mx-auto.my-4 {
+    color: #fff;
+}
+.AboutPage .col-12.col-md-8 {
+    max-width: 653px;
+    width: 100%;
+  padding:50px 20px;
+    background-color: white;
+  position:relative;
+}
+.AboutPage .Banner .row.d-flex {
+    justify-content: center;
+}
+.AboutPage h1, .AboutPage p.col-8.mx-auto.my-4 {
+    color: #000;
+    text-align: center;
+}
+.AboutPage p.col-8.p-0.my-4.mb-5 {
+    margin: 20px auto !important;
+  text-align:center;
+  /* color: #fff; */
+}
+.AboutPage .col-12.col-md-8:before {
+  content: '';
+  border: 3px solid #e01b1b;
+  position: absolute;
+  height: 212px;
+  width: 600px;
+  top: 34px;
+  left: 28px;
+}
+.AboutText_img {
+    padding: 50px 20px;
+}
+h3.title {
+    font-size: 30px;
+ margin-bottom: 20px;
+  color: #1f1f25;
+}
+h3.text-center.counter.position-relative {
+    font-size: 72px;
+    line-height: 80px;
+    margin-bottom: 17px;
+    position: relative;
+    display: block;
+    color: #f9004d;
+  margin:30px auto;
+    /* text-align: center; */
+}
+h3.text-center.counter.position-relative:after {
+    /* right: 9px; */
+    position: absolute;
+    top: -17px;
+    font-size: 40px;
+    content: "+";
+  color: #f9004d;
+}
+.counter-section {
+    padding: 100px 20px;
+}
+.find-work img {
+  width:100%;
+}
+.find-work .content {
+
+  color: #fff;
+  background: #272527;
+  padding: 120px 100px;
+  position: relative;
+  z-index: 2;
+width:800px;
+  border-radius: 10px;
+}
+h4.theme-gradient {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 20px;
+color:#f81f01;
+}
+.team-member img {
+  width: 100%;
+}
+.team-section {
+  padding: 50px 20px;
+}
+.team-section .container, .team-slider .container {
+  max-width: 1260px;
+}
+.team-member:hover:after {
+  opacity: .85;
+  top: 0;
+}
+/* .AboutPage h1.title {
+
+} */
+.AboutPage h1 {
+  font-size: 56px !important;
+  font-weight: 900 !important;
+  line-height: 62px !important;
+  font-family: "Poppins", sans-serif !important;
+  color: #f9004d;
+}
+.team-slider {
+  padding: 100px 20px;
+}
+.person-details {
+  background-color: #f9004d;
+}
+
+@media screen and (max-width:600px){
+  .AboutPage {
+    text-align: center;
+}
+  .AboutPage .col-12.col-md-8:before {
+   
+    content:unset;
+   
+  }
+  .counter-section {
+    padding: 50px 20px;
+}
+.AboutPage .col-12.col-md-8 {
+  max-width: 330px;
+  padding: 29px 20px;
+}
+.findwork-content {
+  padding: 0;
+}
+.AboutPage h1 {
+  font-size: 47px !important;
+  line-height: 55px !important;
+}
+
+}
+@media screen and (max-width:980px){
+  .AboutPage .col-12.col-md-8 {
+  
+  
+    background-color: #1919195c;
+    
+  }
+  .AboutPage p.col-8.p-0.my-4.mb-5 {
+    color: #fff;
+}
+  .find-work .content {
+   
+    padding: 60px 31px;
+    width: unset;
+    border-radius: 0px;
+}
+.about-img {
+  max-width: 893px;
+  width: 100%;
+}
+.findwork-content {
+  padding: 0;
+}
+}
+
+
+@media screen and (min-width:768px) and (max-width:990px){
+  .AboutPage .col-12.col-md-8:before {
+    max-width: 485px;
+    width: 100%;
+}
+}
+@media screen and (max-width:820px){
+  .AboutPage .col-12.col-md-8:before {
+    content:unset;
+}
+}
+@media screen and (min-width:991px) and (max-width:1190px){
+  .AboutPage .col-12.col-md-8:before {
+    max-width: 565px;
+    width: 100%;
+}
+.find-work .content {
+  padding: 109px 70px;
+  width: 665px;
+}
+.findwork-content {
+  padding: 0;
+}
+}
