@@ -123,6 +123,10 @@ p.text-center.my-1.review-title {
     .servicePage .Banner {
         min-height: 30vh;
     }
+    .servicePage h1 {
+    font-size: 47px !important;
+        line-height:52px;
+}
 }
 
 @media screen and (min-width: 601px) and (max-width:1024px){
