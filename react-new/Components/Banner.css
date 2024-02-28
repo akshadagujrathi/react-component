@@ -121,7 +121,8 @@ header {
         padding: 50px 20px;
     }
     h2.title {
-        font-size: 47px;
+        font-size: 40px;
+        line-height:46px;
     }
     .gallery .card img {
         width: 155px;
